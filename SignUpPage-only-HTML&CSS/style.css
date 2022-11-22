@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    min-width: 400px;
+    background:linear-gradient(to top left,#3ed8ff,#a8f5ff);
+}
+.inner-box{
+    width: 400px;
+    margin: auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    border-radius: 8px;
+    background:linear-gradient( to top left,#ffffffff,#ffffff33);
+    backdrop-filter: blur(8px);
+    padding: 20px 40px;
+    box-shadow: 2px 2px 5px #2773a5;
+    z-index: 2;
+}
+.header-box h1{
+    font-size:2.5rem ;
+    color: #212121;
+    /* text-align: center; */
+}
+.header-box p{
+    /* text-align: center; */
+    color: #555;
+    font-size: 0.8rem;
+}
+main{
+    margin: 10px 0px;
+}
+.inner-box p label{
+    display: block;
+    font-weight: bold;
+    
+}
+.inner-box p{
+    margin: 10px 0;
+}
+.inner-box p input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid #ccc;
+    
+}
+.inner-box p input[type="submit"]{
+    background-color: rgb(178, 249, 249);
+    color: #555;
+    border: none;
+    border-radius: 4px;
+    
+    cursor: pointer;
+}
+.inner-box p input[type="submit"]:hover{
+    box-shadow: 0px 0px 5px grey;
+    color: black;
+}
+.inner-box footer{
+    text-align: center;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: absolute;
+    background: linear-gradient(to top right,#ffffff33,#ffffffff);
+}
+.c1{
+   top: 100px;
+   left: 100px;
+}
+.c2{
+    bottom: 100px;
+    right: 100px;
+}
