@@ -1,4 +1,4 @@
-<h1>To Do List using HTML CSS and JavaScript</h1>
+<h1>To Do List using HTML, BootStrap and JavaScript</h1>
 <hr>
 <h2>User Can Add task to the list </h2>
 
